@@ -12,22 +12,36 @@ html
     padding: 0;
     margin: 0;
     color: white;
-    background: rgb(32, 32, 35);
+    background: #202023;
 }
 body
 {
     position: absolute;
-    left: 50%;
+    left: 48.2%;
     transform: translate(-50%, 0); 
     font-feature-settings: "kern";
 }
 
+img
+{
+    position: relative;
+    left: 4rem;
+    top: 0.8rem;
+}
+
+/* .imglog
+{
+    border-radius: 100%;
+    position: absolute; 
+    top: 5.4rem; 
+    left: 25rem;
+} */
 
 .TITLE
 {
     font-size: 14px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: ;
+
 }
 .TITLE2
 {
@@ -35,9 +49,9 @@ body
     font-size: 12px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #FFFFFFeb;
-    padding-top: 16;
+    padding-top: 16px ;
+    padding-left: 70px;
 }
-
 .TITLES
 {
     display: flex;
