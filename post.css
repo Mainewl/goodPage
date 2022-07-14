@@ -15,8 +15,7 @@ html
 body
 {
     position: absolute;
-    left: 48.2%;
-    transform: translate(-50%, 0); 
+    left:calc(50% - 25%); 
     font-feature-settings: "kern";
 }
 
@@ -25,15 +24,28 @@ img
     position: relative;
     left: 4rem;
     top: 0.8rem;
+    
 }
 
-/* .imglog
+.imglog
 {
-    border-radius: 100%;
-    position: absolute; 
-    top: 5.4rem; 
-    left: 25rem;
-} */
+    position: relative;
+    left: -50px; 
+}
+.IMGTXT
+{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    right: 7px;
+}
+
+.AEF
+{
+    text-decoration: none;
+    width: 200px;
+    width: 110px;
+}
 
 .TITLE
 {
@@ -88,4 +100,12 @@ img
 .PST
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.DIRETS
+{
+    color: rgba(255, 255, 255, 0.357);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: px;
 }
