@@ -1,107 +1,102 @@
 *
 {
-    border-width: 0;
-    border-style: solid;
-    box-sizing: border-box;
-    word-break: break-all;
-}
-html
-{
     padding: 0;
     margin: 0;
-    color: white;
     background: #202023;
 }
-body
-{
-    position: absolute;
-    left:calc(50% - 25%); 
-    font-feature-settings: "kern";
-}
 
-img
-{
-    position: relative;
-    left: 4rem;
-    top: 0.8rem;
-    
-}
+/* reset do html */
 
-.imglog
-{
-    
-}
-.IMGTXT
-{
-    text-align: center;
-    position: relative;
-    top: 10px;
-    right: 7px;
-}
 
-.AEF
-{
-    text-decoration: none;
-    width: 200px;
-    width: 110px;
-}
 
-.TITLE
+/* barra de links */
+.titles
+{
+    display: flex;
+    justify-content: space-between;
+}
+.title
 {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: relative;
-    bottom: 3px; 
+    color: #ffffff;
+    text-decoration: none;
 }
-.TITLE:hover
+.title:hover
 {
     cursor: help;
 }
-.TITLE2
+.titleOptions
 {
     text-decoration: none;
     font-size: 12px;
+    height: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #FFFFFFeb;
-    padding-top: 16px ;
-    padding-left: 70px;
-    height: 2.5rem;
-    padding-inline-start: 1rem;
-    padding-inline-end: 1rem;
-    margin-left: 55px;
-    
 }
-.TITLE2:hover
+.titleOptions:hover
 {
    text-decoration: underline;
-    text-decoration-color:rgb(255, 255, 255) ;
+    text-decoration-color: #ffffff;
     text-underline-offset: 3px;
     line-height: 1.2;
 }
-.TITLES
-{
-    display: flex;
-}
+/* barra de links */
 
-.TITTLEP
-{
-    color: #FFFFFF;
-    text-decoration: none;
-    cursor: help;
-}
 
-.IMGS
-{
-    text-align: center;
-    padding-right: 100px;
-}
 
-.PST
+/* titulo */
+.fristTittle
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor:default;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-underline-offset: 3px;
+    line-height: 1.2;
 }
+/* .fristTittle:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-underline-offset: 3px;
+    line-height: 1.2;
+} */
+/* titulo */
 
-.DIRETS
+
+
+/* thumbnails */
+.boxConfig
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box
+{
+    color: white;
+    height: 35vh;
+    width: 45vh;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 3px;
+}
+.image
+{
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 45vh;
+}
+/* thumbnails */
+
+
+/* direitos autorais */
+.direitos
 {
     color: rgba(255, 255, 255, 0.357);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
