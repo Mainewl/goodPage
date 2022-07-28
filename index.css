@@ -2,86 +2,55 @@
 
 *
 {
-    border-width: 0;
-    border-style: solid;
-    box-sizing: border-box;
-    word-break: break-word;
-    /* word-wrap: break-word; */
-}
-html
-{
     padding: 0;
     margin: 0;
     color: white;
     background: #202023;
 }
-body
+/* resset do html e imports */
+
+/*corpo do html */
+.container
+/*corpo do html */
+
+
+/* barra de links */
+.titles
 {
-    position: absolute;
-    left: 48.2%;
-    transform: translate(-50%, 0); 
-    font-feature-settings: "kern";
+    display: flex;
+    justify-content: space-between;
 }
-
-img
-{
-    position: relative;
-    left: 4rem;
-    top: 0.8rem;
-}
-
-/* .imglog
-{
-    border-radius: 100%;
-    position: absolute; 
-    top: 5.4rem; 
-    left: 25rem;
-} */
-
-.TITLE
+.title
 {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: relative;
-    bottom: 3px; 
+    color: #ffffff;
+    text-decoration: none;
 }
-.TITLE:hover
+.title:hover
 {
     cursor: help;
 }
-.TITLE2
+.titleOptions
 {
     text-decoration: none;
     font-size: 12px;
+    height: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #FFFFFFeb;
-    padding-top: 16px ;
-    padding-left: 70px;
-    height: 2.5rem;
-    padding-inline-start: 1rem;
-    padding-inline-end: 1rem;
-    margin-left: 55px;
-    
 }
-.TITLE2:hover
+.titleOptions:hover
 {
-   text-decoration: underline;
+    text-decoration: underline;
     text-decoration-color: #ffffff;
     text-underline-offset: 3px;
     line-height: 1.2;
 }
-.TITLES
-{
-    display: flex;
-}
-.TITTLEP
-{
-    color: #ffffff;
-    text-decoration: none;
-}
+/* barra de links */
 
 
-.HI
+/* mensagenzinha */
+.message
 {
     color: #FFFFFFeb;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -93,15 +62,16 @@ img
     padding: 0.75;
     text-align: center;
 }
+/* mensagenzinha */
 
 
-
-.P
+/* primeiros titulos */
+.fristTittle
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.875rem;
 }
-.P2
+.subTittle
 {
     display: block;
     margin-block-start: 1em;
@@ -110,11 +80,12 @@ img
     margin-inline-end: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/* primeiros titulos */
 
 
 
-
-.M
+/* primeiro texto*/
+.aboutmeTitle
 {
     color: #FFFFFFeb;
     font-size: 24px;
@@ -123,33 +94,37 @@ img
     text-underline-offset: 6px;
     text-decoration-color: #525252;
     text-decoration-thickness: 4px;
+    margin-bottom: 15px;
+    margin-left: 5px;
 }
-.MT
+.aboutmeText
 {
     color: #FFFFFFeb;
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.MTL
+.aboutmeLink
 {
     text-decoration: none;
     color: #ff63c3;
 }
-.MTL:hover
+.aboutmeLink:hover
 {
     text-decoration: underline;
     text-decoration-color: #ff63c3;
     text-underline-offset: 2px;
 }
+/*primeiro text */
 
 
-.BTT
+/* botão de portifolio */
+.buttonLink
 {
     text-decoration: none;
     position: relative;
     left: calc(30%);
 }
-.BTS
+.button
 {
     font-size: 17px;
     padding-inline-start: 1rem;
@@ -164,16 +139,17 @@ img
     text-align: center;
     /* padding-left: 8rem; */
 }
-.BTS:hover
+.button:hover
 {
     text-decoration: underline;
     text-decoration-color: #ff63c3;
     text-underline-offset: 2px;
 }
+/* botão de portifolio */
 
 
-
-.TT
+/* linha do tempo */
+.timelineTittle
 {
     color: #FFFFFFeb;
     font-size: 24px;
@@ -182,8 +158,10 @@ img
     text-underline-offset: 6px;
     text-decoration-color: #525252;
     text-decoration-thickness: 4px;
+    margin-bottom: 15px;
+    margin-left: 5px;
 }
-.TL
+.timeLine
 {
     color: #FFFFFFeb;
     font-size: 16px;
@@ -191,7 +169,7 @@ img
     margin-right: 1em;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.TL1
+.timelineSpacement
 {
     font-size: 16px;
     color: #FFFFFFeb;
@@ -199,11 +177,22 @@ img
     text-indent: -55;
     padding-left: 55;
 }
+.timelineLink
+{
+    text-decoration: none;
+    color: #ff63c3;
+}
+.timelineLink:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #ff63c3;
+    text-underline-offset: 2px;
+}
+/* linha do tempo */
 
 
-
-
-.W
+/* links */
+.webTittle
 {
     color: #FFFFFFeb;
     font-size: 24px;
@@ -212,20 +201,28 @@ img
     text-underline-offset: 6px;
     text-decoration-color: #525252;
     text-decoration-thickness: 4px;
+    margin-left: 5px;
 }
-.WA
+.webuList
+{
+
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.webList
+{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+    margin-inline-end: 0.5rem;
+}
+.webLink
 {
     text-decoration: none;
 }
-.WL
-{
-    color: #81E6D9;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 17px;
-    line-height: 2.2;
-    display: list-item;
-}
-.WB
+.webButton
 {
     background: none;
 	color: inherit;
@@ -239,7 +236,7 @@ img
     padding-inline-end: 1rem;
     height: 2.5rem;
 }
-.WB:hover
+.webButton:hover
 {
     border: #81e6d970;
     background-color: #81e6d91e;
@@ -251,24 +248,18 @@ img
     width: auto;
     min-width: 2.5rem;
 }
-.WLI
+.webSpasn
 {
+    color: #81E6D9;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    line-height: 2.2;
     display: list-item;
-    text-align: -webkit-match-parent;
-    list-style: none;
-    margin-inline-end: 0.5rem;
 }
-.ULM
-{
-    display: block;
-    padding-left: 0;
-    margin-block-end: 1em;
-    margin-block-start: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+/* links */
 
-.DIRETS
+
+.direitos
 {
     color: rgba(255, 255, 255, 0.16);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
