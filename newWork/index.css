@@ -11,6 +11,12 @@
 
 /*corpo do html */
 .container
+{
+    /* display: flexbox; */
+    align-items: center;
+    width: auto;
+    margin: 5px;
+}
 /*corpo do html */
 
 
@@ -56,10 +62,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     background-color: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(10px);
     border-radius: 0.5rem;
-    margin-bottom: 1.5rem;
-    padding: 0.75;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 250px;
     text-align: center;
 }
 /* mensagenzinha */
@@ -118,11 +126,16 @@
 
 
 /* botão de portifolio */
+.buttondevice
+{
+
+}
+
 .buttonLink
 {
     text-decoration: none;
-    position: relative;
-    left: calc(30%);
+    display: flex;
+    justify-content: center;
 }
 .button
 {
@@ -221,6 +234,7 @@
 .webLink
 {
     text-decoration: none;
+    padding: 0;
 }
 .webButton
 {
@@ -235,7 +249,11 @@
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
     height: 2.5rem;
+    
 }
+
+
+
 .webButton:hover
 {
     border: #81e6d970;
